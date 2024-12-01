@@ -69,6 +69,12 @@ ro.telephony.default_network=22,20
 persist.device_config.configuration.disable_rescue_party=true
 persist.sys.disable_rescue=true
 
+# Infinity Stuffs
+ro.infinity.soc=Snapdragon 662
+ro.infinity.battery=6000mAh
+ro.infinity.display=1080x2340, 60 Hz
+ro.infinity.camera=	48MP + 8MP
+
 # SSR
 persist.vendor.ssr.enable_ramdumps=1
 persist.vendor.ssr.restart_level=ALL_ENABLE
