@@ -4,21 +4,22 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common PixelOS stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Infinity-X stuff.
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
-# Inherit some stuff for PixelOS
+# Inherit some stuff for Infinity-X
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_SUPPORTS_QUICK_TAP := true
 
-# Inherit some GO stuff
+#Infinity-X stuffs.
+INFINITY_MAINTAINER := AsTechpro20
+TARGET_SUPPORTS_BLUR := true
+TARGET_ENABLE_BLUR := true
 
 # Always preopt extracted APKs to prevent extracting out of the APK  for gms modules.
 PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
