@@ -5,13 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_citrus.mk \
-    $(LOCAL_DIR)/aosp_lime.mk
+    $(LOCAL_DIR)/infinity_citrus.mk \
+    $(LOCAL_DIR)/infinity_lime.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_citrus-user \
-    aosp_citrus-userdebug \
-    aosp_citrus-eng \
-    aosp_lime-user \
-    aosp_lime-userdebug \
-    aosp_lime-eng
+    infinity_citrus-user \
+    infinity_citrus-userdebug \
+    infinity_citrus-eng \
+    infinity_lime-user \
+    infinity_lime-userdebug \
+    infinity_lime-eng
