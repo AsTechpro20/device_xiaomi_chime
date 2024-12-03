@@ -20,6 +20,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 INFINITY_MAINTAINER := AsTechpro20
 TARGET_SUPPORTS_BLUR := true
 TARGET_ENABLE_BLUR := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
 WITH_GAPPS := true
 
 # Always preopt extracted APKs to prevent extracting out of the APK  for gms modules.
