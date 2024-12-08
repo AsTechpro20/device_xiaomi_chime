@@ -5,13 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/halcyon_citrus.mk \
-    $(LOCAL_DIR)/halcyon_lime.mk
+    $(LOCAL_DIR)/afterlife_citrus.mk \
+    $(LOCAL_DIR)/afterlife_lime.mk
 
 COMMON_LUNCH_CHOICES := \
-    halcyon_citrus-user \
-    halcyon_citrus-userdebug \
-    halcyon_citrus-eng \
-    halcyon_lime-user \
-    halcyon_lime-userdebug \
-    halcyon_lime-eng
+    afterlife_citrus-user \
+    afterlife_citrus-userdebug \
+    afterlife_citrus-eng \
+    afterlife_lime-user \
+    afterlife_lime-userdebug \
+    afterlife_lime-eng
