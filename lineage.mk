@@ -4,8 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common AfterLife stuff.
-$(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
+# Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Lineage Health
 PRODUCT_PACKAGES += \
@@ -17,7 +17,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_SUPPORTS_QUICK_TAP := true
-AFTERLIFE_MAINTAINER := AsTechpro20
 TARGET_SUPPORTS_BLUR := true
 TARGET_ENABLE_BLUR := true
 
